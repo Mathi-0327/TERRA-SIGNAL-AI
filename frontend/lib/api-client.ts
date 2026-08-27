@@ -26,6 +26,7 @@ async function fetchJson<T>(endpoint: string, options: RequestInit = {}): Promis
 export const ApiClient = {
   // Dashboard
   getDashboard: () => fetchJson<any>('/dashboard/'),
+  getDashboardOverview: () => fetchJson<any>('/dashboard/'),
 
   // Locations
   getLocations: () => fetchJson<any[]>('/locations/'),

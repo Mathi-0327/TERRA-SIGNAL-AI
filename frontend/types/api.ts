@@ -89,7 +89,7 @@ export interface DashboardData {
   };
 }
 
-export type DashboardOverview = DashboardData;
+export interface DashboardOverview extends DashboardData {}
 
 export interface FeatureExplanation {
   factor: string;
