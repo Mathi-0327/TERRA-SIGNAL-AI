@@ -1,0 +1,31 @@
+{
+  "status": "PASSED",
+  "dataset_name": "Chennai Metro Residential Properties & Micro-Markets",
+  "total_records_ingested": 3500,
+  "valid_records_retained": 3500,
+  "data_retention_rate_pct": 100.0,
+  "validation_metrics": {
+    "duplicate_records_removed": 0,
+    "boundary_violations_dropped": 0,
+    "statistical_outliers_flagged": 0,
+    "missing_values_by_column": {}
+  },
+  "price_summary_inr": {
+    "min_price": 2492571,
+    "median_price": 12165159,
+    "max_price": 104639548,
+    "avg_price_per_sqft": 9406.27
+  },
+  "geographic_coverage": {
+    "city": "Chennai",
+    "micro_markets_count": 12,
+    "property_types": [
+      "Apartment",
+      "Independent House",
+      "Gated Community Apartment",
+      "Villa",
+      "Penthouse"
+    ]
+  },
+  "generated_at": "2026-08-27T23:25:52.620667"
+}

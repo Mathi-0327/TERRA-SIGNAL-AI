@@ -1,0 +1,199 @@
+[
+  {
+    "id": 1,
+    "location_id": 1,
+    "location_name": "OMR (Old Mahabalipuram Road)",
+    "severity": "HIGH",
+    "title": "Demand-Price Divergence Detected",
+    "signal_type": "DIVERGENCE_WARNING",
+    "signals": [
+      {
+        "indicator": "Demand Index",
+        "previous": 78,
+        "current": 68,
+        "change_pct": -12.8,
+        "direction": "DOWN"
+      },
+      {
+        "indicator": "Active Inventory",
+        "previous": 3200,
+        "current": 3810,
+        "change_pct": 19.1,
+        "direction": "UP"
+      },
+      {
+        "indicator": "Average Selling Days",
+        "previous": 98,
+        "current": 115,
+        "change_pct": 17.3,
+        "direction": "UP"
+      },
+      {
+        "indicator": "Asking Price / sqft",
+        "previous": 5950,
+        "current": 6200,
+        "change_pct": 4.2,
+        "direction": "UP"
+      }
+    ],
+    "interpretation": "Asking prices have risen +4.2% while end-user demand fell -12.8% and unsold inventory expanded +19.1%. This divergence indicates building valuation resistance and potential short-term price correction pressure.",
+    "recommended_action": "Exercise price discipline; negotiate 5-8% below listing price; monitor absorption rates in IT sub-clusters.",
+    "data_sources": [
+      "NHB RESIDEX Q2-2026",
+      "TNRERA Active Registrations"
+    ],
+    "timestamp": "2026-08-20T10:30:00Z"
+  },
+  {
+    "id": 2,
+    "location_id": 2,
+    "location_name": "Velachery",
+    "severity": "WARNING",
+    "title": "Monsoon Inundation Vulnerability & Insurance Premium Elevation",
+    "signal_type": "ENVIRONMENTAL_STRESS",
+    "signals": [
+      {
+        "indicator": "Flood Hazard Score",
+        "previous": 74,
+        "current": 78,
+        "change_pct": 5.4,
+        "direction": "UP"
+      },
+      {
+        "indicator": "Groundwater Infiltration Lag",
+        "previous": 62,
+        "current": 68,
+        "change_pct": 9.7,
+        "direction": "UP"
+      },
+      {
+        "indicator": "Ground Floor Demand Discount",
+        "previous": -4.0,
+        "current": -7.5,
+        "change_pct": -87.5,
+        "direction": "DOWN"
+      }
+    ],
+    "interpretation": "Micro-drainage congestion in catchment pockets has widened the price penalty for stilt/ground floor units versus higher floors by 7.5%.",
+    "recommended_action": "Avoid ground/first floor investments; mandate structural plinth height verification above 2015 high-water mark.",
+    "data_sources": [
+      "GCC WRD Drainage Survey",
+      "State Disaster GIS"
+    ],
+    "timestamp": "2026-08-18T14:15:00Z"
+  },
+  {
+    "id": 3,
+    "location_id": 8,
+    "location_name": "Sholinganallur",
+    "severity": "WARNING",
+    "title": "Developer Inventory Concentration Overhang",
+    "signal_type": "SUPPLY_SURPLUS",
+    "signals": [
+      {
+        "indicator": "Unsold Completed Inventory",
+        "previous": 1850,
+        "current": 2240,
+        "change_pct": 21.1,
+        "direction": "UP"
+      },
+      {
+        "indicator": "Absorption Velocity",
+        "previous": 85,
+        "current": 68,
+        "change_pct": -20.0,
+        "direction": "DOWN"
+      },
+      {
+        "indicator": "Rental Yield Compression",
+        "previous": 4.6,
+        "current": 4.4,
+        "change_pct": -4.3,
+        "direction": "DOWN"
+      }
+    ],
+    "interpretation": "High-density multi-tower completions entering the market simultaneously are creating temporary oversupply and softening rental yield momentum.",
+    "recommended_action": "Selective entry only in ready-to-move projects with verified occupation certificates and tenant occupancy >80%.",
+    "data_sources": [
+      "TNRERA Quarterly Registry",
+      "PropIndex"
+    ],
+    "timestamp": "2026-08-15T09:00:00Z"
+  },
+  {
+    "id": 4,
+    "location_id": 3,
+    "location_name": "Tambaram",
+    "severity": "INFO",
+    "title": "Affordability Migration & Velocity Acceleration",
+    "signal_type": "GROWTH_SURGE",
+    "signals": [
+      {
+        "indicator": "Demand Index",
+        "previous": 77,
+        "current": 84,
+        "change_pct": 9.1,
+        "direction": "UP"
+      },
+      {
+        "indicator": "Selling Time (Days)",
+        "previous": 72,
+        "current": 60,
+        "change_pct": -16.7,
+        "direction": "DOWN"
+      },
+      {
+        "indicator": "Capital Growth Rate (YoY)",
+        "previous": 6.8,
+        "current": 8.9,
+        "change_pct": 30.8,
+        "direction": "UP"
+      }
+    ],
+    "interpretation": "Strong capital inflow driven by price-conscious buyers migrating from central zones, accelerating turnover and compression of listing days.",
+    "recommended_action": "Attractive entry window for 2BHK mid-segment assets; strong rental liquidity.",
+    "data_sources": [
+      "NHB RESIDEX HPI",
+      "Sub-Registrar Registration Filings"
+    ],
+    "timestamp": "2026-08-12T11:45:00Z"
+  },
+  {
+    "id": 5,
+    "location_id": 5,
+    "location_name": "Porur",
+    "severity": "INFO",
+    "title": "Metro Line 4 Construction Transit Premium Trigger",
+    "signal_type": "INFRA_MOMENTUM",
+    "signals": [
+      {
+        "indicator": "Infrastructure Score",
+        "previous": 80,
+        "current": 85,
+        "change_pct": 6.2,
+        "direction": "UP"
+      },
+      {
+        "indicator": "Commercial Office Pre-leasing",
+        "previous": 72,
+        "current": 88,
+        "change_pct": 22.2,
+        "direction": "UP"
+      },
+      {
+        "indicator": "YoY Capital Appreciation",
+        "previous": 7.4,
+        "current": 9.1,
+        "change_pct": 23.0,
+        "direction": "UP"
+      }
+    ],
+    "interpretation": "Metro Phase 2 corridor progress reaching 70% physical completion in West Chennai is pricing in forward transit premiums.",
+    "recommended_action": "Strategic HOLD for existing investors; prospective buyers should target properties within 1.2km of upcoming stations.",
+    "data_sources": [
+      "CMDA Infrastructure Progress Report",
+      "CMRL Phase 2 Updates"
+    ],
+    "timestamp": "2026-08-10T16:20:00Z"
+  }
+]

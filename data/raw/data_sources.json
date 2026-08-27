@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "National Housing Bank (NHB) RESIDEX",
+    "organization": "National Housing Bank / Ministry of Housing and Urban Affairs (India)",
+    "url": "https://residex.nhb.org.in/",
+    "dataset": "Quarterly Housing Price Index (HPI) - City & Micro-Market Indices",
+    "frequency": "Quarterly",
+    "coverage": "Chennai Metro & Suburbs (50+ Zones)",
+    "last_updated": "2026-06-30",
+    "license": "Public Government Data (Data.gov.in)",
+    "notes": "Official benchmark for residential property price movement and index tracking across Indian Tier-1 metros."
+  },
+  {
+    "id": 2,
+    "name": "TNRERA Project Registry",
+    "organization": "Tamil Nadu Real Estate Regulatory Authority",
+    "url": "https://rera.tn.gov.in/",
+    "dataset": "Registered Residential Projects, Inventory Units, Handover Schedules",
+    "frequency": "Monthly",
+    "coverage": "Tamil Nadu State - CMDA Planning Area",
+    "last_updated": "2026-07-15",
+    "license": "Statutory Public Registry",
+    "notes": "Provides verified builder project launches, unsold unit counts, completion timelines, and regulatory compliances."
+  },
+  {
+    "id": 3,
+    "name": "Chennai Metropolitan Development Authority (CMDA)",
+    "organization": "CMDA Infrastructure & Master Plan 2026-2046",
+    "url": "http://www.cmdachennai.gov.in/",
+    "dataset": "Comprehensive Mobility Plan & Metro Phase 2 Alignment Progress",
+    "frequency": "Bi-annual",
+    "coverage": "Greater Chennai Planning Area",
+    "last_updated": "2026-05-20",
+    "license": "Public Information Disclosure",
+    "notes": "Infrastructure completion milestones for Metro Phase 2 Corridors (3, 4, 5) and Peripheral Ring Roads."
+  },
+  {
+    "id": 4,
+    "name": "State Disaster Management & Water Resources Dept (WRD)",
+    "organization": "Tamil Nadu Water Resources Department & GCC GIS",
+    "url": "https://www.chennaicorporation.gov.in/",
+    "dataset": "Flood Inundation & Micro-drainage Catchment Mapping",
+    "frequency": "Annual",
+    "coverage": "15 Greater Chennai Corporation Zones",
+    "last_updated": "2025-11-30",
+    "license": "Open Municipal GIS",
+    "notes": "Vulnerability classifications for 100-year flood lines, Pallikaranai marsh catchment, and micro-basin waterlogging risks."
+  },
+  {
+    "id": 5,
+    "name": "Reserve Bank of India (RBI) Real Estate Metrics",
+    "organization": "Reserve Bank of India",
+    "url": "https://www.rbi.org.in/",
+    "dataset": "All-India House Price Index & Weighted Average Lending Rates",
+    "frequency": "Quarterly",
+    "coverage": "National & Metro Breakdowns",
+    "last_updated": "2026-06-30",
+    "license": "Official Statistical Release",
+    "notes": "Macroeconomic mortgage rate trends, housing credit growth, and home loan non-performing asset benchmarks."
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "model_name": "TerraSignal Predictive Valuation Engine",
+  "primary_algorithm": "Gradient_Boosting_Regressor",
+  "version": "v1.2.0-stable",
+  "training_date": "2026-08-27T23:27:35.734284",
+  "dataset_version": "Chennai_Metro_Q2_2026",
+  "training_samples_count": 2800,
+  "test_samples_count": 700,
+  "features_list": [
+    "area_sqft",
+    "bedrooms",
+    "bathrooms",
+    "property_age",
+    "floor_number",
+    "total_floors",
+    "floor_ratio",
+    "density_sqft_per_bhk",
+    "prop_type_encoded",
+    "amenity_count",
+    "has_parking",
+    "has_power_backup",
+    "has_security",
+    "has_gym",
+    "has_pool",
+    "has_clubhouse",
+    "base_micro_price_sqft",
+    "infra_score",
+    "flood_risk_score",
+    "demand_index",
+    "supply_index",
+    "demand_supply_ratio",
+    "selling_days",
+    "rental_yield"
+  ],
+  "evaluation_metrics": {
+    "mae_inr": 894142.11,
+    "rmse_inr": 1504090.23,
+    "r2_score": 0.9872,
+    "mape_pct": 5.3
+  },
+  "all_benchmarked_models": {
+    "Ridge_Regression_Baseline": {
+      "mae_inr": 2963209.08,
+      "rmse_inr": 4552115.89,
+      "r2_score": 0.8829,
+      "mape_pct": 25.49
+    },
+    "Random_Forest_Regressor": {
+      "mae_inr": 1082609.29,
+      "rmse_inr": 1855878.73,
+      "r2_score": 0.9805,
+      "mape_pct": 6.43
+    },
+    "Gradient_Boosting_Regressor": {
+      "mae_inr": 894142.11,
+      "rmse_inr": 1504090.23,
+      "r2_score": 0.9872,
+      "mape_pct": 5.3
+    }
+  },
+  "feature_importances": {
+    "prop_type_encoded": 0.3481,
+    "area_sqft": 0.3119,
+    "base_micro_price_sqft": 0.1494,
+    "demand_supply_ratio": 0.0471,
+    "selling_days": 0.0445,
+    "supply_index": 0.0429,
+    "demand_index": 0.0165,
+    "infra_score": 0.0158,
+    "property_age": 0.0131,
+    "amenity_count": 0.0027,
+    "rental_yield": 0.002,
+    "flood_risk_score": 0.0014,
+    "density_sqft_per_bhk": 0.0012,
+    "total_floors": 0.0011,
+    "floor_ratio": 0.0008,
+    "floor_number": 0.0005,
+    "bedrooms": 0.0002,
+    "has_power_backup": 0.0002,
+    "bathrooms": 0.0001,
+    "has_parking": 0.0001,
+    "has_security": 0.0001,
+    "has_gym": 0.0001,
+    "has_pool": 0.0001,
+    "has_clubhouse": 0.0001
+  },
+  "status": "PRODUCTION_READY"
+}

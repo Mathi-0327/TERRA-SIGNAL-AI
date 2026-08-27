@@ -1,0 +1,145 @@
+location_id,location_slug,location_name,quarter,avg_price_sqft,demand_index,supply_index,selling_days,rental_yield,inventory_units,transactions_count
+1,omr,OMR (Old Mahabalipuram Road),2023-Q3,5465,68,83,120,4.09,3972,840
+1,omr,OMR (Old Mahabalipuram Road),2023-Q4,5545,67,83,114,4.08,3996,775
+1,omr,OMR (Old Mahabalipuram Road),2024-Q1,5473,67,80,116,4.05,3769,826
+1,omr,OMR (Old Mahabalipuram Road),2024-Q2,5623,68,79,113,4.11,3734,822
+1,omr,OMR (Old Mahabalipuram Road),2024-Q3,5669,67,81,121,4.1,3835,816
+1,omr,OMR (Old Mahabalipuram Road),2024-Q4,5701,68,78,111,4.11,3781,819
+1,omr,OMR (Old Mahabalipuram Road),2025-Q1,5834,67,79,113,4.08,3845,809
+1,omr,OMR (Old Mahabalipuram Road),2025-Q2,5807,69,81,113,4.13,3940,842
+1,omr,OMR (Old Mahabalipuram Road),2025-Q3,6293,63,86,123,4.08,4119,739
+1,omr,OMR (Old Mahabalipuram Road),2025-Q4,6386,60,92,127,4.15,4434,710
+1,omr,OMR (Old Mahabalipuram Road),2026-Q1,6479,57,93,136,3.97,4505,685
+1,omr,OMR (Old Mahabalipuram Road),2026-Q2,6572,50,94,139,4.12,4586,592
+2,velachery,Velachery,2023-Q3,6358,78,64,76,4.57,3098,937
+2,velachery,Velachery,2023-Q4,6589,78,61,74,4.53,2943,940
+2,velachery,Velachery,2024-Q1,6643,79,59,74,4.58,2792,946
+2,velachery,Velachery,2024-Q2,6790,83,62,76,4.6,2880,996
+2,velachery,Velachery,2024-Q3,6888,84,62,76,4.6,2918,1025
+2,velachery,Velachery,2024-Q4,7061,81,60,79,4.53,2909,1005
+2,velachery,Velachery,2025-Q1,7064,78,62,73,4.52,2979,920
+2,velachery,Velachery,2025-Q2,7297,77,65,73,4.58,3161,906
+2,velachery,Velachery,2025-Q3,7410,82,59,76,4.61,2871,965
+2,velachery,Velachery,2025-Q4,7427,80,63,76,4.62,2990,963
+2,velachery,Velachery,2026-Q1,7685,78,66,76,4.54,3201,921
+2,velachery,Velachery,2026-Q2,7861,81,60,78,4.62,2921,1000
+3,tambaram,Tambaram,2023-Q3,3994,82,52,58,3.8,2513,988
+3,tambaram,Tambaram,2023-Q4,4126,84,57,59,3.94,2767,995
+3,tambaram,Tambaram,2024-Q1,4139,85,54,62,3.82,2588,1007
+3,tambaram,Tambaram,2024-Q2,4212,83,56,61,3.74,2697,1002
+3,tambaram,Tambaram,2024-Q3,4333,84,54,57,3.82,2620,1024
+3,tambaram,Tambaram,2024-Q4,4516,81,52,62,3.83,2522,1030
+3,tambaram,Tambaram,2025-Q1,4595,86,56,62,3.78,2726,1020
+3,tambaram,Tambaram,2025-Q2,4659,83,54,67,3.71,2626,972
+3,tambaram,Tambaram,2025-Q3,4752,86,54,57,3.76,2626,1021
+3,tambaram,Tambaram,2025-Q4,4891,84,53,66,3.83,2443,1011
+3,tambaram,Tambaram,2026-Q1,4956,86,52,60,3.83,2539,1014
+3,tambaram,Tambaram,2026-Q2,5083,83,53,65,3.82,2481,1010
+4,anna-nagar,Anna Nagar,2023-Q3,12145,88,39,47,2.86,1837,1063
+4,anna-nagar,Anna Nagar,2023-Q4,12180,84,42,38,2.75,2003,989
+4,anna-nagar,Anna Nagar,2024-Q1,12483,83,41,48,2.87,1896,1013
+4,anna-nagar,Anna Nagar,2024-Q2,12483,84,43,49,2.77,2067,1002
+4,anna-nagar,Anna Nagar,2024-Q3,12699,87,45,44,2.91,2062,1042
+4,anna-nagar,Anna Nagar,2024-Q4,12967,87,41,47,2.78,1939,1057
+4,anna-nagar,Anna Nagar,2025-Q1,13147,85,44,49,2.84,2143,1008
+4,anna-nagar,Anna Nagar,2025-Q2,13239,87,43,48,2.81,2128,1035
+4,anna-nagar,Anna Nagar,2025-Q3,13604,86,42,51,2.84,2057,1052
+4,anna-nagar,Anna Nagar,2025-Q4,13752,87,41,49,2.79,1973,1053
+4,anna-nagar,Anna Nagar,2026-Q1,13859,90,40,44,2.86,1960,1089
+4,anna-nagar,Anna Nagar,2026-Q2,14289,86,40,48,2.77,1969,1030
+5,porur,Porur,2023-Q3,4956,80,59,63,4.26,2844,964
+5,porur,Porur,2023-Q4,5085,80,58,61,4.23,2748,957
+5,porur,Porur,2024-Q1,5243,84,60,65,4.3,2830,1008
+5,porur,Porur,2024-Q2,5331,82,56,67,4.38,2683,990
+5,porur,Porur,2024-Q3,5505,80,58,65,4.3,2745,960
+5,porur,Porur,2024-Q4,5620,84,60,71,4.26,2924,1011
+5,porur,Porur,2025-Q1,5844,79,56,63,4.19,2662,937
+5,porur,Porur,2025-Q2,5858,82,62,68,4.27,2931,991
+5,porur,Porur,2025-Q3,5903,85,60,64,4.21,2948,1018
+5,porur,Porur,2025-Q4,6194,78,57,65,4.3,2713,945
+5,porur,Porur,2026-Q1,6191,81,58,67,4.34,2728,949
+5,porur,Porur,2026-Q2,6482,82,57,70,4.31,2795,985
+6,guindy,Guindy,2023-Q3,9991,82,45,55,3.93,2228,970
+6,guindy,Guindy,2023-Q4,10002,80,41,48,3.8,1955,971
+6,guindy,Guindy,2024-Q1,10232,78,48,48,3.81,2301,942
+6,guindy,Guindy,2024-Q2,10225,74,45,48,3.93,2178,874
+6,guindy,Guindy,2024-Q3,10326,76,45,55,3.85,2185,904
+6,guindy,Guindy,2024-Q4,10449,78,43,50,3.84,2162,937
+6,guindy,Guindy,2025-Q1,10613,78,45,51,3.93,2198,928
+6,guindy,Guindy,2025-Q2,10783,77,40,47,3.97,2002,920
+6,guindy,Guindy,2025-Q3,11069,79,51,55,3.89,2400,924
+6,guindy,Guindy,2025-Q4,11191,76,42,50,3.85,2100,925
+6,guindy,Guindy,2026-Q1,11332,81,45,49,3.98,2187,956
+6,guindy,Guindy,2026-Q2,11478,76,42,55,4.0,1946,920
+7,medavakkam,Medavakkam,2023-Q3,4269,81,63,67,4.0,2982,976
+7,medavakkam,Medavakkam,2023-Q4,4384,82,62,68,4.04,3001,969
+7,medavakkam,Medavakkam,2024-Q1,4483,84,61,72,3.97,2957,997
+7,medavakkam,Medavakkam,2024-Q2,4490,79,64,71,3.95,3104,923
+7,medavakkam,Medavakkam,2024-Q3,4666,80,63,70,3.96,3005,975
+7,medavakkam,Medavakkam,2024-Q4,4739,84,62,72,4.07,2852,996
+7,medavakkam,Medavakkam,2025-Q1,4895,82,65,68,4.0,3112,1002
+7,medavakkam,Medavakkam,2025-Q2,4982,83,63,69,3.98,3044,990
+7,medavakkam,Medavakkam,2025-Q3,5088,86,66,69,4.06,3148,1001
+7,medavakkam,Medavakkam,2025-Q4,5128,78,63,70,4.08,3040,933
+7,medavakkam,Medavakkam,2026-Q1,5333,78,64,72,3.93,3129,941
+7,medavakkam,Medavakkam,2026-Q2,5378,83,69,71,4.01,3289,983
+8,sholinganallur,Sholinganallur,2023-Q3,5483,70,78,104,4.42,3761,856
+8,sholinganallur,Sholinganallur,2023-Q4,5467,71,76,104,4.42,3686,838
+8,sholinganallur,Sholinganallur,2024-Q1,5601,75,79,111,4.36,3730,873
+8,sholinganallur,Sholinganallur,2024-Q2,5695,73,78,106,4.34,3866,878
+8,sholinganallur,Sholinganallur,2024-Q3,5676,73,79,106,4.36,3816,904
+8,sholinganallur,Sholinganallur,2024-Q4,5807,75,77,102,4.39,3699,916
+8,sholinganallur,Sholinganallur,2025-Q1,5692,75,78,104,4.35,3661,912
+8,sholinganallur,Sholinganallur,2025-Q2,5855,69,75,104,4.48,3587,805
+8,sholinganallur,Sholinganallur,2025-Q3,5897,71,73,105,4.39,3539,880
+8,sholinganallur,Sholinganallur,2025-Q4,6041,71,76,113,4.4,3649,852
+8,sholinganallur,Sholinganallur,2026-Q1,6049,72,77,103,4.4,3669,853
+8,sholinganallur,Sholinganallur,2026-Q2,6106,71,81,97,4.45,3950,821
+9,ecr,ECR (East Coast Road),2023-Q3,7911,68,49,88,3.14,2440,830
+9,ecr,ECR (East Coast Road),2023-Q4,8148,70,50,88,3.22,2339,851
+9,ecr,ECR (East Coast Road),2024-Q1,8134,68,53,91,3.18,2602,800
+9,ecr,ECR (East Coast Road),2024-Q2,8315,70,51,91,3.14,2494,837
+9,ecr,ECR (East Coast Road),2024-Q3,8332,71,51,86,3.12,2478,833
+9,ecr,ECR (East Coast Road),2024-Q4,8638,65,55,91,3.2,2613,786
+9,ecr,ECR (East Coast Road),2025-Q1,8600,71,52,90,3.18,2493,857
+9,ecr,ECR (East Coast Road),2025-Q2,8570,66,53,91,3.19,2545,797
+9,ecr,ECR (East Coast Road),2025-Q3,8790,67,52,87,3.22,2411,819
+9,ecr,ECR (East Coast Road),2025-Q4,8999,70,54,95,3.25,2500,821
+9,ecr,ECR (East Coast Road),2026-Q1,9021,69,53,88,3.21,2506,819
+9,ecr,ECR (East Coast Road),2026-Q2,9071,67,49,87,3.25,2305,843
+10,perungudi,Perungudi,2023-Q3,6261,77,58,74,4.47,2790,962
+10,perungudi,Perungudi,2023-Q4,6330,79,59,72,4.59,2801,975
+10,perungudi,Perungudi,2024-Q1,6490,76,61,75,4.53,2849,901
+10,perungudi,Perungudi,2024-Q2,6538,77,61,73,4.43,2947,933
+10,perungudi,Perungudi,2024-Q3,6703,79,62,73,4.5,2893,954
+10,perungudi,Perungudi,2024-Q4,6793,78,57,69,4.55,2734,946
+10,perungudi,Perungudi,2025-Q1,6896,77,62,70,4.5,2953,917
+10,perungudi,Perungudi,2025-Q2,6989,77,59,76,4.46,2823,917
+10,perungudi,Perungudi,2025-Q3,7233,77,62,68,4.51,3020,925
+10,perungudi,Perungudi,2025-Q4,7329,76,63,79,4.48,3002,934
+10,perungudi,Perungudi,2026-Q1,7491,76,59,71,4.43,2786,897
+10,perungudi,Perungudi,2026-Q2,7442,77,60,77,4.45,2929,921
+11,adyar,Adyar,2023-Q3,13370,89,36,43,2.61,1753,1072
+11,adyar,Adyar,2023-Q4,13914,87,37,40,2.57,1744,1062
+11,adyar,Adyar,2024-Q1,13984,87,36,43,2.57,1760,1047
+11,adyar,Adyar,2024-Q2,13786,91,42,40,2.58,2030,1097
+11,adyar,Adyar,2024-Q3,14305,92,38,40,2.53,1787,1104
+11,adyar,Adyar,2024-Q4,14687,87,38,42,2.66,1950,1036
+11,adyar,Adyar,2025-Q1,14577,90,39,48,2.63,1854,1089
+11,adyar,Adyar,2025-Q2,15037,90,39,45,2.66,1941,1090
+11,adyar,Adyar,2025-Q3,15073,88,40,40,2.62,1900,1056
+11,adyar,Adyar,2025-Q4,15525,88,38,38,2.64,1856,1088
+11,adyar,Adyar,2026-Q1,15515,88,38,47,2.6,1838,1065
+11,adyar,Adyar,2026-Q2,15829,87,38,45,2.55,1831,1033
+12,t-nagar,T. Nagar,2023-Q3,12783,82,35,46,3.48,1677,976
+12,t-nagar,T. Nagar,2023-Q4,13057,82,32,46,3.37,1485,995
+12,t-nagar,T. Nagar,2024-Q1,13033,84,33,48,3.43,1579,1036
+12,t-nagar,T. Nagar,2024-Q2,13049,82,35,45,3.41,1668,989
+12,t-nagar,T. Nagar,2024-Q3,13214,88,36,48,3.42,1751,1065
+12,t-nagar,T. Nagar,2024-Q4,13636,86,39,46,3.44,1868,1054
+12,t-nagar,T. Nagar,2025-Q1,13679,89,36,41,3.41,1694,1081
+12,t-nagar,T. Nagar,2025-Q2,13881,84,32,44,3.28,1457,1019
+12,t-nagar,T. Nagar,2025-Q3,14286,86,34,45,3.4,1574,1055
+12,t-nagar,T. Nagar,2025-Q4,14506,85,36,46,3.3,1716,1010
+12,t-nagar,T. Nagar,2026-Q1,14442,84,40,47,3.37,1949,1029
+12,t-nagar,T. Nagar,2026-Q2,14937,85,35,47,3.42,1725,1030
