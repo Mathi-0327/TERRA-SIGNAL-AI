@@ -3,26 +3,9 @@ services:
   - type: web
     name: terrasignal-backend
     env: python
-    buildCommand: pip install -r backend/requirements.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PYTHONPATH
         value: .
-      - key: PYTHON_VERSION
-        value: 3.11.0
-    autoDeploy: true
-
-  # Next.js Frontend Service
-  - type: web
-    name: terrasignal-frontend
-    env: node
-    rootDir: frontend
-    buildCommand: npm install && npm run build
-    startCommand: npm start
-    envVars:
-      - key: NEXT_PUBLIC_API_URL
-        fromService:
-          type: web
-          name: terrasignal-backend
-          property: url
     autoDeploy: true
