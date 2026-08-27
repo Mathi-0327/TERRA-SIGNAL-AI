@@ -14,14 +14,14 @@ export interface LocationDetail {
   price_growth_1y: number;
   flood_risk_score: number;
   infra_score: number;
-  water_table_risk: number;
+  water_table_risk?: number;
   risk_score?: number;
   risk_level?: string;
   opportunity_score?: number;
   opportunity_grade?: string;
-  anomaly_signal: string;
-  market_status: 'EXPANDING' | 'STABLE' | 'COOLING' | 'STRESSED';
-  summary: string;
+  anomaly_signal?: string;
+  market_status?: 'EXPANDING' | 'STABLE' | 'COOLING' | 'STRESSED' | string;
+  summary?: string;
 }
 
 export interface EarlyWarningAlert {
@@ -88,6 +88,8 @@ export interface DashboardData {
     status: string;
   };
 }
+
+export type DashboardOverview = DashboardData;
 
 export interface FeatureExplanation {
   factor: string;
