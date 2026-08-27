@@ -52,6 +52,14 @@ const CHENNAI_MICRO_MARKETS = [
 ];
 
 export default function ScenarioSimulatorPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-slate-50 p-8 text-center text-xs text-slate-500 font-financial">Loading Scenario Simulator...</div>}>
+      <ScenarioSimulatorContent />
+    </Suspense>
+  );
+}
+
+function ScenarioSimulatorContent() {
   const searchParams = useSearchParams();
   const initialLocId = Number(searchParams.get('location_id')) || 1;
   const initialPrice = Number(searchParams.get('price')) || 8200000;

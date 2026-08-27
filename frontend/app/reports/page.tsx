@@ -37,6 +37,14 @@ const LOCALITIES = [
 ];
 
 export default function ReportsPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-slate-50 p-8 text-center text-xs text-slate-500 font-financial">Loading Investment Dossier...</div>}>
+      <ReportsContent />
+    </Suspense>
+  );
+}
+
+function ReportsContent() {
   const searchParams = useSearchParams();
   const initialLocId = Number(searchParams.get('location_id')) || 1;
 

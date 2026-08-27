@@ -42,6 +42,14 @@ import {
 } from 'recharts';
 
 export default function LocationIntelligencePage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-slate-50 p-8 text-center text-xs text-slate-500 font-financial">Loading Location Intelligence...</div>}>
+      <LocationIntelligenceContent />
+    </Suspense>
+  );
+}
+
+function LocationIntelligenceContent() {
   const searchParams = useSearchParams();
   const searchLoc = searchParams.get('search') || '';
 
